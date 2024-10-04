@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scenarios.SelectMultiple">
+      <class name="scenarios.AutoSuggestSearch">
         <methods>
-          <include name="selectMultipleItems"/>
+          <include name="autoSuggestSearch"/>
         </methods>
-      </class> <!-- scenarios.SelectMultiple -->
+      </class> <!-- scenarios.AutoSuggestSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

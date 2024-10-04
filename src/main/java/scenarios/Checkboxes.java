@@ -2,8 +2,6 @@ package scenarios;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
@@ -12,26 +10,27 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class RadioButtons {
-	
+public class Checkboxes {
 	WebDriver driver;
 	@Test
-	
-	public void selectRdButtons() {
+	public void multipleCheckboxes() {
+		
 		
 		driver = new EdgeDriver();
 		driver.get("https://www.letskodeit.com/practice");
 		driver.manage().window().maximize();
 		
-		WebElement bmw = driver.findElement(By.id("bmwradio"));
-		bmw.click();
+		WebElement bmwcheck = driver.findElement(By.id("bmwcheck"));
+		bmwcheck.click();
 		
-		boolean bmwcheck = bmw.isSelected();
+		WebElement hondacheck = driver.findElement(By.id("hondacheck"));
+		hondacheck.click();
 		
-		AssertJUnit.assertEquals(bmwcheck, true);
+		AssertJUnit.assertEquals(bmwcheck.isSelected(), true);
+		
+		AssertJUnit.assertEquals(hondacheck.isSelected(), true);
 		
 		driver.quit();
 		
 	}
-
 }
