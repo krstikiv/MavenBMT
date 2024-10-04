@@ -5,6 +5,7 @@
     <classes>
       <class name="scenarios.SwitchingWindows"/>
       <class name="scenarios.RadioButtons"/>
+      <class name="scenarios.SelectMultiple"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,5 +1,7 @@
 package scenarios;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
@@ -24,7 +26,7 @@ public class RadioButtons {
 		
 		boolean bmwcheck = bmw.isSelected();
 		
-		assertEquals(bmwcheck, true);
+		AssertJUnit.assertEquals(bmwcheck, true);
 		
 		driver.quit();
 		
