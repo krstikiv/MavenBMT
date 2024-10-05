@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-04T16:17:36 CEST" name="Default suite" finished-at="2024-10-04T16:17:47 CEST" duration-ms="10940">
+  <suite started-at="2024-10-05T14:17:01 CEST" name="Default suite" finished-at="2024-10-05T14:17:20 CEST" duration-ms="19374">
     <groups>
     </groups>
-    <test started-at="2024-10-04T16:17:36 CEST" name="Default test" finished-at="2024-10-04T16:17:47 CEST" duration-ms="10940">
-      <class name="scenarios.AutoSuggestSearch">
-        <test-method signature="autoSuggestSearch()[pri:0, instance:scenarios.AutoSuggestSearch@39529185]" started-at="2024-10-04T16:17:37 CEST" name="autoSuggestSearch" finished-at="2024-10-04T16:17:47 CEST" duration-ms="10904" status="PASS">
+    <test started-at="2024-10-05T14:17:01 CEST" name="Default test" finished-at="2024-10-05T14:17:20 CEST" duration-ms="19374">
+      <class name="scenarios.HiddenDisplayedElement">
+        <test-method signature="hiddenElement()[pri:0, instance:scenarios.HiddenDisplayedElement@72f926e6]" started-at="2024-10-05T14:17:01 CEST" name="hiddenElement" finished-at="2024-10-05T14:17:11 CEST" duration-ms="9973" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoSuggestSearch -->
-      </class> <!-- scenarios.AutoSuggestSearch -->
+        </test-method> <!-- hiddenElement -->
+        <test-method signature="showElement()[pri:0, instance:scenarios.HiddenDisplayedElement@72f926e6]" started-at="2024-10-05T14:17:11 CEST" name="showElement" finished-at="2024-10-05T14:17:20 CEST" duration-ms="9356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showElement -->
+      </class> <!-- scenarios.HiddenDisplayedElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

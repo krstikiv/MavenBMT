@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="scenarios.AutoSuggestSearch" class="method navigator-link" hash-for-method="autoSuggestSearch">autoSuggestSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="scenarios.Checkboxes" class="method navigator-link" hash-for-method="multipleCheckboxes">multipleCheckboxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="scenarios.SelectMultiple" class="method navigator-link" hash-for-method="selectMultipleItems">selectMultipleItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="scenarios.RadioButtons" class="method navigator-link" hash-for-method="selectRdButtons">selectRdButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="scenarios.SelectMultiple" class="method navigator-link" hash-for-method="selectSingleItem">selectSingleItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="scenarios.SwitchingWindows" class="method navigator-link" hash-for-method="switchTab">switchTab</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -131,14 +151,51 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scenarios.SwitchingWindows</span>
+              <span class="class-name">scenarios.AutoSuggestSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="switchWin">
-                  </a> <!-- switchWin -->
-                  <span class="method-name">switchWin</span>
+                  <a name="autoSuggestSearch">
+                  </a> <!-- autoSuggestSearch -->
+                  <span class="method-name">autoSuggestSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scenarios.Checkboxes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleCheckboxes">
+                  </a> <!-- multipleCheckboxes -->
+                  <span class="method-name">multipleCheckboxes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scenarios.SelectMultiple</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMultipleItems">
+                  </a> <!-- selectMultipleItems -->
+                  <span class="method-name">selectMultipleItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSingleItem">
+                  </a> <!-- selectSingleItem -->
+                  <span class="method-name">selectSingleItem</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,14 +218,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scenarios.SelectMultiple</span>
+              <span class="class-name">scenarios.SwitchingWindows</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="selectMultipleItems">
-                  </a> <!-- selectMultipleItems -->
-                  <span class="method-name">selectMultipleItems</span>
+                  <a name="switchTab">
+                  </a> <!-- switchTab -->
+                  <span class="method-name">switchTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchWin">
+                  </a> <!-- switchWin -->
+                  <span class="method-name">switchWin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,6 +249,8 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;scenarios.AutoSuggestSearch&quot;/&gt;
+      &lt;class name=&quot;scenarios.Checkboxes&quot;/&gt;
       &lt;class name=&quot;scenarios.SwitchingWindows&quot;/&gt;
       &lt;class name=&quot;scenarios.RadioButtons&quot;/&gt;
       &lt;class name=&quot;scenarios.SelectMultiple&quot;/&gt;
@@ -201,7 +267,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,24 +293,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'switchWin')
 data.setCell(0, 2, 'scenarios.SwitchingWindows')
-data.setCell(0, 3, 9770);
+data.setCell(0, 3, 12469);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectMultipleItems')
-data.setCell(1, 2, 'scenarios.SelectMultiple')
-data.setCell(1, 3, 9560);
+data.setCell(1, 1, 'autoSuggestSearch')
+data.setCell(1, 2, 'scenarios.AutoSuggestSearch')
+data.setCell(1, 3, 11319);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'selectRdButtons')
 data.setCell(2, 2, 'scenarios.RadioButtons')
-data.setCell(2, 3, 9178);
+data.setCell(2, 3, 10164);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectSingleItem')
+data.setCell(3, 2, 'scenarios.SelectMultiple')
+data.setCell(3, 3, 10013);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'switchTab')
+data.setCell(4, 2, 'scenarios.SwitchingWindows')
+data.setCell(4, 3, 9953);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'multipleCheckboxes')
+data.setCell(5, 2, 'scenarios.Checkboxes')
+data.setCell(5, 3, 9894);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectMultipleItems')
+data.setCell(6, 2, 'scenarios.SelectMultiple')
+data.setCell(6, 3, 9779);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -270,24 +352,46 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">scenarios.AutoSuggestSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">autoSuggestSearch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scenarios.Checkboxes</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multipleCheckboxes</span>
+                <span class="method-start">11324 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">scenarios.SwitchingWindows</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">switchWin</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">21219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchTab</span>
+                <span class="method-start">33691 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scenarios.RadioButtons</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectRdButtons</span>
-                <span class="method-start">9774 ms</span>
+                <span class="method-start">43646 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scenarios.SelectMultiple</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectMultipleItems</span>
-                <span class="method-start">18953 ms</span>
+                <span class="method-start">53812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectSingleItem</span>
+                <span class="method-start">63594 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

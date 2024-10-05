@@ -1,4 +1,6 @@
 scenarios\SelectMultiple.class
 Project01\MavenTestProject\App.class
 scenarios\RadioButtons.class
+scenarios\Checkboxes.class
+scenarios\AutoSuggestSearch.class
 scenarios\SwitchingWindows.class
